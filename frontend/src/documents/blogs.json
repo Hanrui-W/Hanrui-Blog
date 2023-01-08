@@ -1,0 +1,18 @@
+{
+    "Blogs": [
+        {
+            "title": 
+                "My First Blog",
+            "content": 
+                "This is my first blog post on this application. Instead of typing a bunch of Lorem Ipsum, I want to see if I can send this blog post using the POST method from the fetch API. If you see this post, It means I succeeded.",
+            "description": 
+                "My first blog post",
+            "category": 
+                "Commentary"
+        },
+
+        {
+
+        }
+    ]
+}

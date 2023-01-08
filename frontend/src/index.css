@@ -1,0 +1,86 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+  --highlight: orange;
+}
+
+.home {
+  font-family: "Roboto";
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+}
+
+.thumbnail-details {
+  background-color: white;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.title:hover {
+  color: var(--highlight);
+}
+
+.thumbnail-details > p {
+  margin: 10px 10px 0px 0px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+header {
+  background: #fff;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.tag--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+}
+
+.tag {
+  border-radius: 75px;
+  background-color: grey;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  padding: 7px;
+}
